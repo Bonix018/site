@@ -1,0 +1,78 @@
+.clients.padding {
+	padding: 100px 0;
+	background: #EBEBEB;
+}
+.client-content {
+	position: relative;
+}
+.client-text {
+	margin-bottom: 50px;
+}
+.client__title {
+	margin-bottom: 40px;
+}
+.client__items {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.client__item-block {
+	background: url(../img/microsoft.png) no-repeat top left;
+	max-width: 100%;
+	width: 255px;
+	height: 130px;
+}
+.client__item-block-asus {
+	background: url(../img/asus.jpg) no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	max-width: 100%;
+	width: 255px;
+	height: 130px;
+}
+.client__item-block-lenova { 
+	background: url(../img/lenova.jpg) no-repeat center center;
+	background-size: cover;
+	max-width: 100%;
+	overflow: hidden;
+	width: 255px;
+	height: 130px;
+}
+.client__item-block-gygabyte{
+	background: url(../img/gigabyte.png) no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	max-width: 100%;
+	width: 255px;
+	height: 130px;
+}
+.client-slider {
+	.slick-dots li button {
+		background-color: #005FA3;
+		opacity: 0.4;
+		margin-top: 100px;
+	}
+	
+	.slick-dots li.slick-active button {
+		background-color: #005FA3;
+		opacity: 1;
+	}
+}
+
+.client-slider__buttons {
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	display: inline-block;
+	button {
+		width: 60px;
+		height: 60px;
+		font-size: 15px;
+		background-color: #005FA3;
+		opacity: 0.8;
+		&:hover {
+			opacity: 0.4;
+		}
+	}
+	
+}
